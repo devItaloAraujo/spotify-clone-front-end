@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import { getUser } from '../services/userAPI';
 import Carregando from '../pages/carregando';
+import './header.css';
 
 function Header() {
   const [user, setUser] = useState('');
