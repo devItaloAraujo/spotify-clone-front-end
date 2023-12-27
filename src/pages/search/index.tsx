@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import searchAlbumsAPI from '../../services/searchAlbumsAPI';
 import Carregando from '../carregando';
 import { AlbumType } from '../../types';
+import './search.css';
 
 function Search() {
   const [artist, setArtist] = useState('');
@@ -53,20 +54,22 @@ function Search() {
           && (
             <div>
               <h2>{`Resultado de álbuns de: ${artistSaved}`}</h2>
-              {albums.map((item: AlbumType) => {
-                return (
-                  <div key={ item.collectionId }>
-                    <img src={ item.artworkUrl100 } alt={ item.collectionName } />
-                    <Link
-                      data-testid={ `link-to-album-${item.collectionId}` }
-                      to={ `/album/${item.collectionId}` }
-                    >
-                      <h3>{ item.collectionName }</h3>
-                    </Link>
-                    <h4>{ item.artistName }</h4>
-                  </div>
-                );
-              })}
+              <div className="musicCardContainer">
+                {albums.map((item: AlbumType) => {
+                  return (
+                    <div key={ item.collectionId } className="musicCard">
+                      <img src={ item.artworkUrl100 } alt={ item.collectionName } />
+                      <Link
+                        data-testid={ `link-to-album-${item.collectionId}` }
+                        to={ `/album/${item.collectionId}` }
+                      >
+                        <h3>{ item.collectionName }</h3>
+                      </Link>
+                      <h4>{ item.artistName }</h4>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           )
       }

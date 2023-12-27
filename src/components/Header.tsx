@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import { getUser } from '../services/userAPI';
 import Carregando from '../pages/carregando';
@@ -17,16 +17,17 @@ function Header() {
       (user.length > 0)
       && (
         <header data-testid="header-component">
-          <h2 data-testid="header-user-name">
+          <h2 data-testid="header-user-name" id="username">
+            <img src="/user.png" alt="user" />
             { user }
           </h2>
-          <nav>
+          {/* <nav>
             <NavLink to="/search" data-testid="link-to-search">Pesquisa</NavLink>
             { ' ' }
             <NavLink to="/favorites" data-testid="link-to-favorites">Favoritas</NavLink>
             { ' ' }
             <NavLink to="/profile" data-testid="link-to-profile">Perfil</NavLink>
-          </nav>
+          </nav> */}
         </header>
       )
       }

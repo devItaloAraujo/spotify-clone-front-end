@@ -29,13 +29,13 @@ function Login() {
         ? (
           <div>
             <img
-              src="src/images/logo.png"
+              src="/logo.png"
               alt="logo-trybetunes"
             />
             <input
               id="name"
               type="text"
-              placeholder="qual é o seu nome?"
+              placeholder="ual é o seu nome?"
               value={ name }
               onChange={ handleName }
               data-testid="login-name-input"
