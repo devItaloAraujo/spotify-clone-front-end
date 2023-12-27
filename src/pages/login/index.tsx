@@ -35,7 +35,7 @@ function Login() {
             <input
               id="name"
               type="text"
-              placeholder="ual é o seu nome?"
+              placeholder="Qual é o seu nome?"
               value={ name }
               onChange={ handleName }
               data-testid="login-name-input"
