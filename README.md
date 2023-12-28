@@ -17,7 +17,7 @@ Um clone simplificado de um aplicativo como spotify.
 
 ## Iniciando o projeto localmente:
 
-- Clone esse repositório em uma pasta com: **git clone git@github.com:devItaloAraujo/spotify-clone-trybetunes**
+- Clone esse repositório em uma pasta.
 - Instale as dependencias do projeto com o comando: **npm install**
 - Execute o comando: **npm run dev**
 - Pronto, o terminal irá mostrar o endereço local da página e ela será aberta no navegador.
