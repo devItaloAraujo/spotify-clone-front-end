@@ -1,10 +1,23 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto spotify clone: Trybetunes
+
+## Contexto
+Este projeto trata-se  de uma aplicação front-end de um reprodutor de músicas que podem ser buscadas pelo nome do artista em uma barra de pesquisa.
+É possivel acessar o album e ver uma lista de músicas, também é possivel reproduzir amostras das músicas.
+Além disso o projeto simula a página de login e exibe seu nome de perfil durante a utilização.
+Um clone simplificado de um aplicativo como spotify.
+
+## Técnologias usadas
+- Node
+- React e seus hooks 
+- CSS3 
+- HTML5
+- Typescript
+- Linter
+- Vite 
+
+## Iniciando o projeto localmente:
+
+- Clone esse repositório em uma pasta com: **git clone git@github.com:devItaloAraujo/spotify-clone-trybetunes**
+- Instale as dependencias do projeto com o comando: **npm install**
+- Execute o comando: **npm run dev**
+- Pronto, o terminal irá mostrar o endereço local da página e ela será aberta no navegador.
