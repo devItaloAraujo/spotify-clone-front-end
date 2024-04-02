@@ -1,4 +1,4 @@
-# Projeto spotify clone: Trybetunes
+# Projeto spotify clone
 
 ## Contexto
 Este projeto trata-se  de uma aplicação front-end de um reprodutor de músicas que podem ser buscadas pelo nome do artista em uma barra de pesquisa.
